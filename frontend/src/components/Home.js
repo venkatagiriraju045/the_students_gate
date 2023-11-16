@@ -132,7 +132,7 @@ const Home = () => {
             <div className="home-container">
                 <div className="home-page-left-container">
                     <div className="home-page-main-logo-container">
-                        <img src="/uploads/tsg-logo.png" alt="menu image" id="home-page-main-logo" />
+                        <img src="./uploads/tsg-logo.png" alt="menu image" id="home-page-main-logo" />
                     </div>
                     <div id="about-company-container">
                         <div>
@@ -145,7 +145,7 @@ const Home = () => {
 
                     <div className="login-container">
                         <div className='login-page-logo-container'>
-                            <img src="/uploads/login-page-logo.png" alt="menu image" id="login-page-logo" />
+                            <img src="./uploads/login-page-logo.png" alt="menu image" id="login-page-logo" />
                         </div>
                         <h2 id="login-person">{loginAs === 'student' ? 'Student Gate' : 'Admin Gate'}</h2>
                         {loginError && <p className="login-error">{loginError}</p>}
@@ -190,7 +190,7 @@ const Home = () => {
                             </div>
 
                         </form>
-                        <img src="/uploads/login-page-line.png" alt="menu image" id="login-page-line" />
+                        <img src="./uploads/login-page-line.png" alt="menu image" id="login-page-line" />
 
                     </div>
                     <footer id="home-page-footer">
