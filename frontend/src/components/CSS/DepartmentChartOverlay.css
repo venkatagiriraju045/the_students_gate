@@ -1,0 +1,110 @@
+
+.department-class-wise-hosteler-monthly-container{
+    display: flex;
+    justify-content: space-between;
+}
+.overlay-chart-container{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+}
+.sub-charts-container{
+    font-weight: 100;
+    text-align: center;
+    color:rgba(54, 54, 54, 0.331)
+}
+#class-wise-page{
+    padding-top:20px;
+}
+.class-wise-header{
+    justify-content: space-between;
+}
+.department-header-container{
+    justify-content:space-between ;
+    display: flex;
+    width: 100%;
+
+}
+.overall-department-performance-chart-container{
+padding:1vw;
+border-radius: 2vw;
+box-shadow: inset 1.5vw 1.5vw 1.7vw #ffffff, 1vw 1vw 1.5vw rgba(0, 0, 0, 0.16);
+text-align: center;
+margin-bottom: 4vw;
+margin-right: 1vw;
+}
+.inside-container{
+    display: flex;
+    justify-content: space-between;
+}
+.class-wise-analytics-page {
+    margin-top:40px;
+}
+.admin-year-choosing-menu {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    background-color: #ffffff;
+    backdrop-filter: blur 7px;
+}
+
+.menu-buttons{
+align-items: flex-end;
+margin-right: 20px;
+justify-content: space-between;
+
+}
+.admin-year-choosing-menu button {
+    margin-right: 20px;
+    background-color:transparent;
+    color: rgb(37, 26, 26);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+.department-wise-chart-heading{
+    top:0;
+    margin-left: 20px;
+    margin-top: 0px;
+    color: rgba(41, 40, 40, 0.486);
+}
+.chart-heads{
+    color: rgba(41, 41, 41, 0.781);
+
+}
+.admin-year-choosing-menu button:hover {
+    background-color: #afafaf30;
+}
+
+.admin-year-choosing-menu button:focus {
+    outline: none;
+    box-shadow: 0 0 15px #175a7ecd;
+}
+.menu-buttons .today-button{
+    background-color: rgba(33, 107, 225, 0.482);
+    outline: none;
+    border: none;
+    color: rgb(37, 26, 26);
+    margin-top: 0;
+    align-items: top;
+}
+.today-button{
+    background-color: rgba(66, 223, 108, 0.482);
+    outline: none;
+    border: none;
+    color: aliceblue;
+    margin-right: 40px;
+
+}
+.main-admin-overlay-close-button{
+    position: absolute;
+    color: #f9f9f9;
+    top: 5%;
+    right: 0%;
+    background-color: transparent;
+    border: none;
+    font-size: calc(0.7rem + 0.5vw);
+    cursor: pointer;
+    padding: 4px 8px;
+}

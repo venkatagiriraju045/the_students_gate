@@ -1,0 +1,301 @@
+html {
+    font-size: 14px;
+    overflow-y: auto;
+}
+
+.home-container {
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: row;
+}
+
+
+.home-page-right-container {
+    justify-content: space-between;
+    min-height: 100vh;  
+}
+
+
+.home-page-left-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00684A;
+    padding:5%;
+    padding-top:0;
+    width:100%;
+    min-height: 100vh;  
+
+}
+
+.home-page-main-logo-container {
+    width: 60%;
+    min-width: 400px;
+    padding-top:1.2vw ;
+    display: flex;
+    justify-content: center;
+}
+
+#home-page-main-logo {
+    width: 90%;
+}
+
+
+.login-page-logo-container {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    padding-top: 3vh;
+}
+
+#login-page-logo {
+    width: 80%;
+    opacity: 90%;
+
+}
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5vw;
+    padding-top: 0;
+}
+#login-person {
+    color: rgb(51, 123, 130);
+    font-size: calc(1rem + 1vw);
+    font-weight: bold;
+    margin-bottom:0;
+    margin-top: 0.5vw;
+}
+.form-group {
+    margin-top: 1.5vw;
+}
+
+
+#about-company-container {
+    display: flex;
+    color: rgb(215, 215, 215);
+    padding: 2%;
+    width: 90%;
+    font-size: calc(1rem + 0.75vw);
+    border-radius: 1vw;
+    background-color: rgba(255, 255, 255, 0.107);
+    box-shadow: 1vh 1vh 2vh rgba(0, 0, 0, 0.16);
+    opacity: 90%;
+    margin-top: 0.4vw;
+}
+
+
+
+.form-buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: 2rem;
+    padding: 0.5vw;
+    margin-top: 4.5vw;
+
+}
+
+#login-as {
+    text-align: center;
+    color: rgb(111, 139, 142);
+    font-size: 1.4rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Add this CSS code to your existing styles */
+
+.loading-symbol {
+    position: fixed;
+    width: 2vw;
+    /* Adjust the size of the loading symbol */
+    height: 2vw;
+    /* Adjust the size of the loading symbol */
+    background-color: #333;
+    /* Background color of the loading symbol */
+    border-radius: 50%;
+    /* Makes the symbol a circle */
+    animation: spin 1s linear infinite;
+    /* Create a spinning animation */
+
+    /* Position the loading symbol at the cursor */
+    top: calc(50% - 1vw);
+    /* Half the height of the symbol to center it */
+    left: calc(50% - 1vw);
+    /* Half the width of the symbol to center it */
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#home-page-footer {
+    color: #000000;
+    text-align: center;
+    clear: both;
+    bottom: 0;
+    font-size: calc(0.1rem + 1vw);
+    display: flex;
+    justify-content: center;
+}
+
+#login-page-line {
+    height: 4vw;
+    margin-left: 1vw;
+    opacity: 80%;
+
+}
+
+
+.login-error {
+    color: #ff0000;
+    margin-bottom: 1vw;
+}
+
+.login-success {
+    color: #00a000;
+    margin-bottom: 1vw;
+}
+
+
+.form-group label {
+    font-size: 1rem;
+    color: rgb(61, 79, 88);
+    height: 1.5vw;
+    font-weight: bold;
+    line-height: 1.5vw;
+    letter-spacing: 0.02em;
+
+}
+
+.form-group input {
+    margin-top: 1vh;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    font-size: 1rem;
+    line-height: 1.2vh;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(136, 147, 151);
+    -webkit-text-fill-color: rgb(0, 30, 43);
+    border-radius: 0.4vw;
+    width: 100%;
+    font-family: "Euclid Circular A", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    z-index: 1;
+    color: rgb(0, 30, 43);
+    height: 5vh;
+    min-height: 15px;
+    padding-left: 1vw;
+    outline: none;
+    transition: border-color 150ms ease-in-out 0s, box-shadow;
+    background: rgb(255, 255, 255);
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(136, 147, 151);
+    border-image: initial;
+}
+
+.form-group input:hover {
+    box-shadow: rgb(192, 217, 250) 0 0 0 0.3vw;
+}
+
+.form-group input:focus {
+    box-shadow: rgb(255, 255, 255) 0 0 0 10vh inset, rgb(4, 152, 236) 0 0 0 0.3vw;
+    border-color: rgb(255, 255, 255);
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.login-button {
+    padding: 1vh 2vh;
+    background-color: rgb(0, 104, 74);
+    border: none;
+    height: 5vh;
+    width: 15vh;
+    font-family: "Euclid Circular A", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border-radius: 0.4vw;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.login-button:focus:active {
+    box-shadow: rgb(0, 255, 140) 0 0 0 0.3vw;
+    border: 1px solid rgb(255, 255, 255);
+    transition: all 150ms ease-in-out 0s;
+    z-index: 0;
+    background-color: rgb(0, 104, 74);
+    color: rgb(0, 249, 29);
+    font-weight: bold;
+}
+
+.back-button:focus:active {
+    box-shadow: rgb(0, 255, 140) 0 0 0 0.3vw;
+    border: 1px solid rgb(255, 255, 255);
+    transition: all 150ms ease-in-out 0s;
+    z-index: 0;
+    background-color: rgb(0, 104, 74);
+    color: rgb(0, 249, 29);
+    font-weight: bold;
+}
+
+
+.login-button:hover {
+    box-shadow: rgb(192, 250, 224) 0 0 0 0.3vw;
+
+}
+
+.back-button:hover {
+    box-shadow: rgb(192, 250, 224) 0 0 0 0.3vw;
+
+}
+
+.back-button {
+    padding: 1vh 2vh;
+    background-color: rgb(0, 104, 74);
+    border: none;
+    height: 5vh;
+    width: 15vh;
+    font-family: "Euclid Circular A", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    border-radius: 0.4vw;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.login-person {
+    margin-bottom: 1vw;
+    color: rgb(19, 76, 114);
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    text-align: start;
+}
+
+@media (max-width:870px){
+    .home-container {
+        display: flex;
+        flex-direction: column;
+    }
+    #home-page-footer {
+        
+        font-size: calc(1rem + 0.5vw);
+    }
+    
+    
+}

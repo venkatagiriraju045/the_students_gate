@@ -1,0 +1,387 @@
+.main-admin-page-container {
+    min-height: 100vh;
+    transition: all 0.3s ease;
+    overflow-y: hidden;
+}
+
+.admin-nav-list {
+    text-align: center;
+}
+
+.menu-icons {
+    height: 35px;
+    width: 35px;
+    image-rendering: pixelated;
+
+}
+
+.admin-header-dialogue {
+    margin-left: 38%;
+    color: #1f1313;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.admin-nav-list ul li {
+    margin-top: 100px;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    margin-left: 250px;
+    height: calc(100vh - 60px);
+    align-items: center;
+}
+
+.principal-content-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0px;
+    align-items: center;
+}
+
+.main-admin-footer {
+    text-align: center;
+
+}
+
+.admin-overlay-content {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: rgba(37, 21, 21, 0.829);
+    font-weight: 100;
+    width: 91%;
+    height: 93%;
+    z-index: 999;
+    overflow-y: auto;
+}
+
+.admin-chart-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 30px;
+    box-shadow: inset 20px 20px 22px #ffffff, 10px 10px 17px rgba(0, 0, 0, 0.16);
+
+
+}
+
+.flex-container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 35px;
+    width: 95%;
+    margin-left: 6%;
+
+}
+
+.attendance-sub-container {
+    padding: 10px;
+    min-width: 400px;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 20px;
+    box-shadow: inset 20px 20px 22px #ffffff, 10px 10px 17px rgba(0, 0, 0, 0.16);
+
+}
+
+.main-attendance-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+
+}
+
+.department-attendance-details {
+    text-align: left;
+    color: rgb(33, 18, 18);
+}
+
+.copy-button {
+    color: #140c0c;
+    background-color: #ffffff19;
+    outline: none;
+    border: none;
+    text-align: top;
+    margin-top: 0;
+}
+
+.present-details-percentage {
+    color: rgba(13, 21, 13, 0.975);
+}
+
+.absent-details-percentage {
+    color: rgba(20, 19, 12, 0.938);
+}
+
+.overall-chart-heading {
+    font-size: 24px;
+    font-weight: 100;
+    color: rgba(21, 14, 14, 0.63);
+}
+
+.department-chart-container {
+    display: flex;
+    padding-bottom: 40px;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: #5bdbff;
+    padding-top: 30px;
+
+}
+
+.department-chart {
+    text-align: center;
+}
+
+.admin-students-container {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: inset 20px 20px 22px #ffffff, 10px 10px 17px rgba(0, 0, 0, 0.16);
+}
+
+
+.admin-table-container {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.admin-table-container table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.admin-table-container tr:nth-child(even) {
+    background-color: #1248181c;
+}
+
+.admin-table-container th {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd94;
+    color: #201212fa;
+    font-weight: 100;
+}
+
+.admin-table-container td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #dddddd94;
+    color: #1f1010f6;
+    font-weight: 100;
+}
+
+.admin-table-container th {
+    position: sticky;
+    top: 0;
+    color: rgba(41, 22, 22, 0.795);
+    backdrop-filter: blur(4px);
+    background-color: rgba(66, 163, 126, 0.311);
+}
+
+.admin-table-container::-webkit-scrollbar {
+    width: 15px;
+}
+
+.admin-table-container::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+}
+
+.admin-table-container::-webkit-scrollbar-thumb {
+    background-color: rgba(41, 90, 90, 0.788);
+    border-radius: 10px;
+}
+
+.admin-table-container::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(28, 55, 58, 0.8);
+}
+
+.search-bar-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    border-radius: 15px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    width: 98%;
+    box-shadow: inset 8px 8px 10px #ffffff, 5px 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.search-bar:hover {
+    display: flex;
+    border-radius: 15px;
+    align-items: center;
+    width: 98%;
+    background-color: #ffffff2c;
+    box-shadow: inset 8px 8px 10px #ffffff, 5px 5px 8px rgba(0, 0, 0, 0.16);
+}
+
+.search-bar input[type="text"] {
+    margin-left: 10px;
+    width: 90%;
+    height: 25px;
+    padding: 5px;
+    border: none;
+    background-color: #ffffff00;
+    color: rgb(33, 21, 21);
+    font-size: 15px;
+}
+
+.search-bar input[type="text"]:focus {
+    outline: none;
+}
+
+.search-bar input[type="text"]::placeholder {
+    color: rgba(40, 27, 27, 0.651);
+    font-size: 15px;
+}
+
+.search-bar button {
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: #309bff;
+}
+
+.search-bar button:hover {
+    right: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    color: rgb(33, 21, 21);
+}
+
+.content-container.loading {
+    filter: blur(0.3px);
+    pointer-events: none;
+}
+
+.admin-overlay-content::-webkit-scrollbar {
+    width: 15px;
+}
+
+.admin-overlay-content::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0);
+}
+
+.admin-overlay-content::-webkit-scrollbar-thumb {
+    background-color: rgba(56, 108, 108, 0.788);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.514);
+}
+
+.admin-overlay-content::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(37, 69, 72, 0.8);
+}
+
+.loading-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999999;
+}
+
+.loading-spinner {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+}
+
+.loading-text {
+    margin-top: 10px;
+    color: rgb(33, 21, 21);
+    font-size: 16px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+.download-button {
+    margin-right: 10px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    outline: none;
+}
+
+canvas#overall-chart-sample {
+    width: 225px;
+    height: 225px;
+}
+
+#close-button {
+    color: #fff;
+}
+
+/* Add this CSS at the end of your existing CSS file or in a new file */
+
+.mobile-warning-overlay-message {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 20px;
+}
+
+.mobile-warning-overlay-message p {
+    text-align: center;
+    max-width: 80%;
+}
+
+/* Add this if you want to style the mobile-warning-overlay message further */
+.mobile-warning-overlay-message p {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

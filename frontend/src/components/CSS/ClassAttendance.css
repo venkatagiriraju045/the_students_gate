@@ -1,0 +1,11 @@
+.monthly-class-attendance-chart-container{
+    padding:10px;
+    margin:0;
+    margin-right:20px;
+    margin-top:15px;
+    border-radius: 8px;
+    border-radius: 30px;
+    box-shadow: inset 20px 20px 22px #ffffff, 10px 10px 17px rgba(0, 0, 0, 0.16);
+    text-align: center;
+    margin-bottom: 50px;
+    }

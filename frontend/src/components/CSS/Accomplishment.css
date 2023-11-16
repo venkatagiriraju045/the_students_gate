@@ -1,0 +1,20 @@
+.accomplishments-container{
+    color:rgb(32, 19, 19);
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: inset 20px 20px 22px #ffffff, 10px 10px 17px rgba(0, 0, 0, 0.16);
+
+    background-color: rgb(255, 255, 255);
+    font-size:18px;
+}
+.accomplishments-point-icon{
+        width: 20px; 
+        height: 20px;
+        margin-right: 9px; 
+}
+.accomplishment-error-message{
+    color: rgb(32, 19, 19);
+    text-align: center;
+}
